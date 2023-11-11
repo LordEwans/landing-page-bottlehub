@@ -30,11 +30,11 @@
   },
   "type": "module",
   "dependencies": {
+    "@sveltejs/adapter-cloudflare": "^2.3.3",
     "autoprefixer": "^10.4.16",
     "daisyui": "latest",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.31",
-    "sveltejs": "",
     "tailwindcss": "^3.3.3",
     "ts-node": "^10.9.1",
     "upgrade": "^1.1.0"
