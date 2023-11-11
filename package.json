@@ -11,11 +11,13 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "test:unit": "vitest",
     "lint": "prettier --plugin-search-dir . --check .",
-    "format": "prettier --plugin-search-dir . --write ."
+    "format": "prettier --plugin-search-dir . --write .",
+    "deploy": "bun run build && gh-pages -d .svelte-kit/output/client -t true"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
     "@sveltejs/adapter-auto": "^1.0.0-next.90",
+    "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.0.0-next.587",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.8.1",
@@ -30,6 +32,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "daisyui": "latest",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "ts-node": "^10.9.1"
