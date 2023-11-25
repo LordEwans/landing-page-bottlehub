@@ -34,9 +34,11 @@
       </button> -->
 			</nav>
 			<div class="justify-self-end hidden lg:flex navbar-end">
-				<a href="/faucets"
-					><label for="waitlist" class="btn btn-outline text-xs mx-6 btn-primary">Faucets</label>
-				</a>
+				<label
+					for="waitlist"
+					class="btn btn-outline text-xs mx-6 btn-primary"
+					onclick="waitlist.showModal()">join waitlist</label
+				>
 			</div>
 			<div class="max-lg:navbar-end">
 				<label
@@ -73,9 +75,11 @@
 			<li class="partials">
 				<a href="#trading" class="partials">Trading</a>
 			</li>
-			<a href="/faucets">
-				<label for="waitlist" class="btn text-xs mt-9 mx-6 btn-primary">faucets</label>
-			</a>
+			<label
+				for="waitlist"
+				class="btn text-xs mx-6 btn-primary"
+				onclick="waitlist.showModal()">join waitlist</label
+			>
 		</ul>
 	</div>
 </div>

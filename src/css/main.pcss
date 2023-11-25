@@ -5,6 +5,7 @@
 :root {
 	--logo-color: hsl(var(--p));
 	--p: 76 100% 50%;
+	--text: hsl(147, 100%, 50%);
 	--pc: var(--b1);
 	--pf: var(--p);
 	--bc: var(--b1);
@@ -13,7 +14,7 @@
 }
 
 .body {
-	@apply bg-[length:140%_140%] bg-gradient-to-tr from-slate-900 via-slate-900 to-cyan-900 text-[hsl(var(--p))];
+	@apply bg-[length:140%_140%] bg-gradient-to-tr from-slate-900 via-slate-900 to-cyan-900 text-[var(--text)];
 	font-family: system-ui, -apple-system;
 }
 

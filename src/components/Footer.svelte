@@ -7,7 +7,7 @@
 		class="footer footer-center p-10 w-[96%] mb-4 rounded-3xl border-b border-[hsl(var(--p))] border-opacity-40 text-primary"
 	>
 		<nav>
-			<div class="grid grid-flow-col gap-6">
+			<div class="grid grid-flow-col gap-6 text-[var(--text)]">
 				<a href="https://x.com/" target="_blank"
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
